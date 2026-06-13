@@ -146,9 +146,7 @@ To add more testimonials, copy a `.story-card` block in `index.html` and add a n
 
 ## 👨‍💻 Built By
 
-**[Your Name]**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+**[VANSH CHAUHAN]**
 
 > This project was built as part of a frontend development internship application / personal project to support NayePankh Foundation's digital presence.
 
