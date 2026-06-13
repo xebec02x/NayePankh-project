@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NayePankh Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <svg class="logo-feather" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 2 C28 6 34 16 30 28 C26 38 12 40 6 34 C2 30 4 22 10 18 C16 14 22 18 18 28" stroke="#F4A116" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+          <path d="M18 28 L14 38" stroke="#F4A116" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M18 2 C10 10 8 20 14 28" stroke="#8DB5A0" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="2 3" fill="none"/>
+        </svg>
+        <span class="logo-text">NayePankh<em> Foundation</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#join">Join Us</a></li>
+      </ul>
+      <a href="#donate" class="btn-nav">Donate Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#mission" onclick="closeMobile()">Mission</a>
+      <a href="#impact" onclick="closeMobile()">Impact</a>
+      <a href="#stories" onclick="closeMobile()">Stories</a>
+      <a href="#join" onclick="closeMobile()">Join Us</a>
+      <a href="#donate" class="btn-nav" onclick="closeMobile()">Donate Now</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shape"></div>
+    <div class="hero-content">
+      <span class="eyebrow">Empowering Youth Since 2020</span>
+      <h1 class="hero-heading">
+        Every child deserves<br/>
+        <em>new wings</em> to fly.
+      </h1>
+      <p class="hero-sub">
+        NayePankh Foundation bridges the gap between potential and opportunity for
+        underprivileged youth across India — through education, mentorship, and community.
+      </p>
+      <div class="hero-cta">
+        <a href="#donate" class="btn-primary">Give Wings Today</a>
+        <a href="#mission" class="btn-ghost">Learn Our Story</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="feather-wrap">
+        <svg class="big-feather" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="feather-spine" d="M100 10 C140 50 160 120 140 180 C120 230 60 240 30 210 C10 190 20 160 50 145 C80 130 110 150 100 190" stroke="#F4A116" stroke-width="3" stroke-linecap="round" fill="none"/>
+          <path class="feather-left-1" d="M100 50 C80 55 65 65 60 80" stroke="#F4A116" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+          <path class="feather-left-2" d="M105 75 C82 78 66 90 62 106" stroke="#F4A116" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+          <path class="feather-left-3" d="M110 100 C88 101 72 114 68 130" stroke="#8DB5A0" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+          <path class="feather-left-4" d="M115 125 C96 123 82 136 80 152" stroke="#8DB5A0" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+          <path class="feather-right-1" d="M100 50 C120 55 135 65 138 80" stroke="#F4A116" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+          <path class="feather-right-2" d="M105 75 C126 78 142 90 144 106" stroke="#F4A116" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+          <path class="feather-right-3" d="M110 100 C130 103 146 116 148 132" stroke="#8DB5A0" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+          <path class="feather-quill" d="M100 190 L92 230" stroke="#F4A116" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="100" cy="10" r="4" fill="#F4A116" opacity="0.8"/>
+        </svg>
+        <div class="feather-glow"></div>
+      </div>
+      <div class="stat-card stat-card--1">
+        <span class="stat-num">12,000+</span>
+        <span class="stat-label">Lives Touched</span>
+      </div>
+      <div class="stat-card stat-card--2">
+        <span class="stat-num">48</span>
+        <span class="stat-label">Districts</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="mission" id="mission">
+    <div class="container">
+      <div class="section-label">Our Mission</div>
+      <div class="mission-grid">
+        <div class="mission-text">
+          <h2>We believe in the power of<br/><em>one changed life.</em></h2>
+          <p>
+            Founded in 2020, NayePankh Foundation works at the intersection of education
+            and social equity. We provide underprivileged youth with the tools, skills, and
+            mentorship they need to break cycles of poverty — for themselves and the
+            generations that follow.
+          </p>
+          <p>
+            Our name means "new wings" — because every young person deserves the chance
+            to rise, regardless of where they were born.
+          </p>
+          <a href="#join" class="btn-primary">Volunteer With Us</a>
+        </div>
+        <div class="mission-pillars">
+          <div class="pillar">
+            <div class="pillar-icon">📚</div>
+            <h3>Education</h3>
+            <p>Free tutoring, digital literacy programs, and scholarship access for students from Class 6 to graduation.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">🤝</div>
+            <h3>Mentorship</h3>
+            <p>Connecting youth with professionals across fields — law, medicine, tech, and the arts.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">🌱</div>
+            <h3>Community</h3>
+            <p>Building local support networks that sustain change long after our programs end.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class="impact" id="impact">
+    <div class="container">
+      <div class="section-label light">Real Numbers</div>
+      <h2 class="impact-heading">Impact that compounds<br/>every year.</h2>
+      <div class="impact-grid">
+        <div class="impact-item">
+          <span class="impact-num" data-target="12000">0</span>
+          <span class="impact-plus">+</span>
+          <p>Youth directly supported</p>
+        </div>
+        <div class="impact-item">
+          <span class="impact-num" data-target="48">0</span>
+          <p>Districts reached across India</p>
+        </div>
+        <div class="impact-item">
+          <span class="impact-num" data-target="320">0</span>
+          <span class="impact-plus">+</span>
+          <p>Active volunteers</p>
+        </div>
+        <div class="impact-item">
+          <span class="impact-num" data-target="94">0</span>
+          <span class="impact-pct">%</span>
+          <p>Program completion rate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORIES -->
+  <section class="stories" id="stories">
+    <div class="container">
+      <div class="section-label">Voices</div>
+      <h2>Stories of new wings.</h2>
+      <div class="stories-track" id="storiesTrack">
+        <article class="story-card active">
+          <div class="story-quote">"</div>
+          <p class="story-text">
+            Before NayePankh, I had no access to a computer. Today I'm studying computer science
+            at a central university. They didn't just teach me — they believed in me first.
+          </p>
+          <div class="story-author">
+            <div class="story-avatar" style="background:#0D4F5C;">A</div>
+            <div>
+              <strong>Ankit Sharma</strong>
+              <span>Student, Delhi — Batch 2022</span>
+            </div>
+          </div>
+        </article>
+        <article class="story-card">
+          <div class="story-quote">"</div>
+          <p class="story-text">
+            I joined as a volunteer for three months. I stayed for three years.
+            Watching these kids transform is the most meaningful work I've ever done.
+          </p>
+          <div class="story-author">
+            <div class="story-avatar" style="background:#8DB5A0;">P</div>
+            <div>
+              <strong>Priya Mehta</strong>
+              <span>Mentor & Volunteer, Jaipur</span>
+            </div>
+          </div>
+        </article>
+        <article class="story-card">
+          <div class="story-quote">"</div>
+          <p class="story-text">
+            My daughter passed her Class 12 board exams with 91%. Two years ago, she had
+            dropped out. NayePankh brought her back — and gave our whole family hope.
+          </p>
+          <div class="story-author">
+            <div class="story-avatar" style="background:#F4A116; color:#1A2332;">R</div>
+            <div>
+              <strong>Rekha Devi</strong>
+              <span>Parent, Lucknow</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="stories-nav">
+        <button class="story-btn" id="prevBtn" aria-label="Previous">&#8592;</button>
+        <div class="story-dots" id="storyDots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="story-btn" id="nextBtn" aria-label="Next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN / VOLUNTEER -->
+  <section class="join" id="join">
+    <div class="container">
+      <div class="join-grid">
+        <div class="join-text">
+          <div class="section-label">Get Involved</div>
+          <h2>Your time is<br/>transformative.</h2>
+          <p>
+            We need educators, tech professionals, artists, counselors, and anyone who
+            wants to give back. Remote and in-person roles available across India.
+          </p>
+          <a href="mailto:volunteer@nayepankh.com" class="btn-primary">Apply to Volunteer</a>
+        </div>
+        <form class="join-form" id="volunteerForm">
+          <h3>Express Interest</h3>
+          <div class="form-group">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" placeholder="Rahul Verma" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="rahul@email.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="skill">Your Skill / Field</label>
+            <select id="skill">
+              <option value="">Select one</option>
+              <option>Teaching / Tutoring</option>
+              <option>Technology / Coding</option>
+              <option>Counseling / Psychology</option>
+              <option>Arts & Culture</option>
+              <option>Law / Policy</option>
+              <option>Healthcare</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="New Delhi"/>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Submit Interest</button>
+          <p class="form-note" id="formMsg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE -->
+  <section class="donate" id="donate">
+    <div class="container donate-inner">
+      <div class="section-label light">Make a Difference</div>
+      <h2>Fund a future.</h2>
+      <p class="donate-sub">
+        Every rupee goes directly toward books, internet access, and mentor stipends.
+        We maintain full financial transparency.
+      </p>
+      <div class="donate-amounts">
+        <button class="amt-btn active" data-amt="500">₹500</button>
+        <button class="amt-btn" data-amt="1000">₹1,000</button>
+        <button class="amt-btn" data-amt="2500">₹2,500</button>
+        <button class="amt-btn" data-amt="5000">₹5,000</button>
+      </div>
+      <div class="donate-custom">
+        <span>₹</span>
+        <input type="number" id="customAmt" placeholder="Custom amount" min="1"/>
+      </div>
+      <div class="donate-impact-preview" id="donatePreview">
+        ₹500 provides <strong>one month of learning materials</strong> for a child.
+      </div>
+      <a href="https://nayepankh.com" target="_blank" rel="noopener" class="btn-donate">
+        Donate ₹500 Now
+      </a>
+      <p class="donate-note">80G Tax Exemption available · Secure Payment · Fully Transparent</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <svg viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:32px;">
+          <path d="M18 2 C28 6 34 16 30 28 C26 38 12 40 6 34 C2 30 4 22 10 18 C16 14 22 18 18 28" stroke="#F4A116" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+          <path d="M18 28 L14 38" stroke="#F4A116" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <strong>NayePankh Foundation</strong>
+          <span>Empowering Youth Since 2020</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#mission">Mission</a>
+        <a href="#impact">Impact</a>
+        <a href="#stories">Stories</a>
+        <a href="mailto:volunteer@nayepankh.com">Contact</a>
+        <a href="https://nayepankh.com" target="_blank" rel="noopener">Official Site</a>
+      </div>
+      <p class="footer-copy">© 2024 NayePankh Foundation · Built with purpose.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
